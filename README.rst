@@ -2,6 +2,8 @@
 fuzzyset - A fuzzy string set for javascript.
 =============================================
 
+*This is a modified version of fuzzyset intended to help in string completion. All original docs still apply (see below). The modifications include better matches for short (<3) query strings and a larger number of returned results.*
+
 fuzzyset is a data structure that performs something akin to fulltext search
 against data to determine likely mispellings and approximate string matching.
 Note that this is a javascript port of a `python library`_.
